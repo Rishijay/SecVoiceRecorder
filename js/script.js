@@ -55,6 +55,29 @@ $(function(){
 		Screenshots Slider
 	=========================================================================*/
 	$('.screenshots-slider').owlCarousel({
+		items: 3,
+		autoplay: true,
+		autoplaySpeed: 1500,
+		responsive: {
+			1024: {
+				items: 3
+			},
+			992: {
+				items: 3 
+			},
+			768: {
+				items: 2
+			},
+			0: {
+				items: 1
+			}
+		}
+	});
+	
+	/*=========================================================================
+		Screenshots Slider -2
+	=========================================================================*/
+	$('.screenshots-slider2').owlCarousel({
 		items: 4,
 		autoplay: true,
 		autoplaySpeed: 1500,
@@ -73,7 +96,6 @@ $(function(){
 			}
 		}
 	});
-	
 	
 	
 	/*=========================================================================
