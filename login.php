@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 //============== FOR ERROR MSG =======================   
 
 	if ($_POST['emp_id']=="Ris123" && $_POST['emp_password']=="12345") {
-		$response[]=["error"=>false,"message"=>"Password Successfully Matched ","error_code"=>100,
+		$response[]=["error"=>false,"message"=>"Password Matched ","error_code"=>100,
                     		"org_id"=>"my_org_1234"];
                     		echo json_encode($response);
 	}else
